@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'pt-br'
       },
-      title: 'Nuxt 3 Scaffolding'
+      title: 'Mediuni.ca - Sistema de gerenciamento de comunicações espíritas'
     }
   },
   // Read more about Nuxt Layers
@@ -69,7 +69,7 @@ export default defineNuxtConfig({
       // Add custom options for HTML-Validator
       // https://html-validator.nuxtjs.org/#configuration-optional
       // https://html-validate.org/rules/index.html
-      usePrettier: true,
+      // usePrettier: true,
       logLevel: 'warning',
       options: {
         rules: {

@@ -23,7 +23,7 @@
     "eslint": "^8.56.0",
     "husky": "^9.0.10",
     "nuxt": "^3.10.0",
-    "nuxt-layout-compositions": "^1.1.2",
+    "nuxt-layout-compositions": "^2.0.2",
     "pug": "^3.0.2",
     "stylus": "^0.62.0",
     "vitest": "^1.2.2",
