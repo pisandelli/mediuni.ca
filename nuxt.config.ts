@@ -62,7 +62,7 @@ export default defineNuxtConfig({
       // Add options for Google Fonts
       // https://google-fonts.nuxtjs.org/options
       families: {
-        'Open+Sans': [300, 400, 600, 700]
+        Inter: [100, 400, 500, 700]
       }
     }],
     ['@nuxtjs/html-validator', {
