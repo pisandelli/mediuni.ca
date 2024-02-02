@@ -1,3 +1,6 @@
+/**
+ * Default CSS variables for styling.
+ */
 :root
   --animation-speed: 0.5s
   --border-radius: 0.5rem
@@ -5,46 +8,49 @@
   --max-width: 65ch
   --gap: 1.5rem
 
+  // TYPOGRAPHY
   --font-plain: 'Open Sans', sans-serif
 
   --font-size-tiny: 0.75rem
   --font-size-small: 0.875rem
   --font-size-base: 1rem
-  --font-size-big: 1.4rem
-  --font-size-bigger: 1.75rem
-  --font-size-huge: 2rem
+  --font-size-big: 1.5rem
 
   --weight-light: 300
   --weight-regular: 400
   --weight-medium: 600
   --weight-bold: 700
 
-  /* MODULAR SCALE */
-  --s-1: calc(var(--s0) / var(--ratio))
-  --s0: 1rem
-  --s1: calc(var(--s0) * var(--ratio))
-  --s2: calc(var(--s1) * var(--ratio))
-  --s3: calc(var(--s2) * var(--ratio))
-
+  // STACK
   --stack-300: 0
   --stack-400: 10
   --stack-500: 20
   --stack-600: 30
   --stack-700: 40
 
-  --border-thin: 0.0625rem
-  --border-medium: calc(var(--border-thin) * calc(var(--ratio) * 2))
-  --border-thick: calc(var(--border-medium) * calc(var(--ratio) * 2.5))
+  // COLOR PALETTE
+  // https://mycolor.space/?hex=%231C75BC&sub=1 
+  --color-primary: #1C75BC
+  --color-accent: #CB4D98
+  --color-background: #f0faff
+  --color-default: #3e4756
+  --color-light: #f1f1e6
 
-  --color-danger: #FF3B30
-  --color-default: #595959
-  --color-grey-dark: #8C8C8C
-  --color-grey-light: #f0f0f0
-  --color-neutral: #fbfbfb
-  --color-primary: #597EF7
-  --color-secondary: #F7BD37
-  --color-success: #34C759
-  --color-warning: #FA8C16
+  // ACTION COLORS
+  --color-success: #008342
+  --color-danger: #c64541
+  --color-warning: #dda01d
+  --color-info: #4790d9
+
+  // SHADES
+  // https://mycolor.space/?hex=%233E4756&sub=1
+  --grey-50: #f0faff
+  --grey-100: #ced8ea
+  --grey-200: #a7b1c3
+  --grey-300: #828c9d
+  --grey-400: #5f6878
+  --grey-500: #3e4756
+  --grey-600: #000819
 
   font-family: var(--font-plain)
   line-height: var(--ratio)
