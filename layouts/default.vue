@@ -9,7 +9,7 @@
 <template lang="pug">
 BasicLayout.layout
   header
-    p topbar
+    Topbar
   main
     slot
   footer
@@ -18,4 +18,7 @@ BasicLayout.layout
 <style lang='stylus' scoped>
 .layout
   gap: var(--gap) 0
+
+header
+  padding: var(--gap)
 </style>

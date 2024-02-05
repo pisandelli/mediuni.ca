@@ -3,6 +3,7 @@ import { resolve, dirname } from 'node:path'
 import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
 
 export default defineNuxtConfig({
+  devtools: { enabled: true },
   app: {
     head: {
       htmlAttrs: {
@@ -20,6 +21,7 @@ export default defineNuxtConfig({
   ],
   components: {
     dirs: [
+      { path: '~/components/_widgets', pathPrefix: false, prefix: 'W' },
       '~/components'
     ]
   },
