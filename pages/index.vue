@@ -14,5 +14,4 @@ SidebarL.sidebarL
 <style lang='stylus' scoped>
 .sidebarL
   min-block-size: 100%
-  gap: var(--gap)
 </style>
